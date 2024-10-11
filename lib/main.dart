@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get_x_example/get_x_uils/get_x_util.dart';
+import 'package:get_x_example/favorite_example.dart';
 import 'package:get_x_example/pages/home_page.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:get_x_example/simple_example.dart';
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       theme: FlexThemeData.light(scheme: FlexScheme.limeM3),
       darkTheme: FlexThemeData.dark(scheme: FlexScheme.limeM3),
       themeMode: ThemeMode.system,
-      home: HomePage(),
+      home: FavoriteExample(),
     );
   }
 }
